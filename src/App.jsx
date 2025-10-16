@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ApiCall from "./ApiCall";
+import RefHook from "./RefHook";
 
 const App = () => {
   const [count, setCount] = useState(0); // store kore rakha
@@ -43,6 +44,7 @@ const App = () => {
         </div>
       </div>
       <ApiCall />
+      <RefHook />
     </div>
   );
 };
